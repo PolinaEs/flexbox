@@ -40,3 +40,14 @@ body {
   background: lightcoral;
   height: 100px;
 }
+
+.inline {
+  display: flex;
+  justify-items: center;
+  height: 100px;
+  border: 3px solid palevioletred;
+  align-items: center;
+  flex-basis: 30%;
+  background-color: pink;
+  flex-grow: 1;
+}
